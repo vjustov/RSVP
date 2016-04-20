@@ -27,7 +27,7 @@ This is an app to handle RSVP for an events. Eventually it will handle multiple 
   - Bryan [-*]
   - José Luis [-*]
 
-~~### A user registers for an event~~
+### ~~A user registers for an event~~
 
 As a user I want to be able to register for an event
 
@@ -40,7 +40,7 @@ As a user I want to be able to register for an event
 ##############################################
 
 
-~~### An admin sees the registrations for an event~~
+### ~~An admin sees the registrations for an event~~
 
 As an admin user I want to be able to see the registrations for a particular event
 
@@ -50,7 +50,7 @@ Acceptance Criteria:
 
 ##############################################
 
-~~### An admin sees the pretty registrations for an event
+### ~~An admin sees the pretty registrations for an event~~
 
 As an admin user I want to be able to see the registrations for a particular event.
 
