@@ -10,21 +10,24 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 
-group :development, :test do
-  gem 'byebug'
-  gem 'pry'
-end
-
-group :development do
-  gem 'web-console', '~> 2.0'
-  gem 'spring'
-end
 gem 'bootstrap-sass'
 gem 'haml-rails'
 gem 'pg'
 gem 'puma'
 gem 'simple_form'
+gem 'devise'
+
+group :development, :test do
+  gem 'byebug'
+  gem 'pry'
+  gem 'factory_girl_rails'
+  gem 'faker'
+  gem 'rspec-rails'
+end
+
 group :development do
+  gem 'web-console', '~> 2.0'
+  gem 'spring'
   gem 'better_errors'
   gem 'foreman'
   gem 'html2haml'
@@ -33,11 +36,7 @@ group :development do
   gem 'rails_layout'
   gem 'spring-commands-rspec'
 end
-group :development, :test do
-  gem 'factory_girl_rails'
-  gem 'faker'
-  gem 'rspec-rails'
-end
+
 group :test do
   gem 'capybara'
   gem 'database_cleaner'
