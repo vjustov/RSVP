@@ -4,4 +4,14 @@ class EventsController < ApplicationController
     @events = Event.all
   end
 
+  def show
+    @registration = Registration.new
+    @event = Event.find(event_id)
+  end
+
+  private
+
+  def event_id
+    params[:id]
+  end
 end
