@@ -1,4 +1,4 @@
-class EventRegistrationsController < ApplicationController
+class Admin::RegistrationsController < ApplicationController
   #TODO: Authenticate!
   http_basic_authenticate_with name: "rsvp", password: "batida"
 

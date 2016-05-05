@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   resources :registrations, only: [:index]
 
-  resources :event_registrations, only: [:index]
+  namespace :admin do
+    resources :registrations, only: [:index]
+  end
 
 end
