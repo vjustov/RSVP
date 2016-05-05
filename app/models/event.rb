@@ -10,4 +10,6 @@ class Event < ActiveRecord::Base
   RUBY_DO_EVENT_ID = 0
   JAVASCRIPT_DO_EVENT_ID = 1
 
+  has_many :registrations
+
 end
